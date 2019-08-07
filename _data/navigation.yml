@@ -1,0 +1,18 @@
+# main links
+main:
+  - title: "算法"
+    url: /categories/#Algo
+  - title: "机器学习"
+    url: /categories/#ML
+  - title: "NLP"
+    url: /categories/#NLP
+  - title: "其他"
+    url: /categories/#Others
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
