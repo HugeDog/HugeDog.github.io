@@ -23,7 +23,7 @@ github_username:  HugeDog
 
 # Build settings
 markdown: kramdown
-#theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.16.5"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
@@ -43,7 +43,7 @@ masthead_title           : " "
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 100
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "utterances" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -54,8 +54,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
-    issue_term           : # "pathname" (default)
+    theme                : "github-light" # (default), "github-dark"
+    issue_term           : "pathname" # (default)
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
@@ -72,7 +72,7 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  endpoint               : # "http://39.100.74.203:5050/v3/entry/github/"
 reCaptcha:
   siteKey                :
   secret                 :
@@ -304,7 +304,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
     # _pages
