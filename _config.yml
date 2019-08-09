@@ -17,8 +17,7 @@
 encoding: utf-8
 title: 大狗狗的博客
 email: tongchaodong@iie.ac.cn
-description: >- # this means to ignore newlines until "baseurl:"
-  2019.8.6 大狗狗开博客啦，后续会更新一些机器学习、NLP、算法以及一些开发实践经验。
+description: 2019.8.6 大狗狗开博客啦，后续会更新一些机器学习、NLP、算法以及一些开发实践经验。
 twitter_username: # jekyllrb
 github_username:  HugeDog
 
